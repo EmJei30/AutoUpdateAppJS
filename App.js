@@ -37,7 +37,8 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Text>Welcome to the Auto Update App!</Text>
-      <Text style={{ marginTop: 20 }}>Push updates to GitHub to see changes here.</Text>
+      {/* <Text style={{ marginTop: 20 }}>Push updates to GitHub to see changes here.</Text> */}
+      <Text style={{ marginTop: 20 }}>This is the updated version of the app!</Text>
     </View>
   );
 };
